@@ -157,7 +157,7 @@ configly.api_key = 'YOUR_API_KEY'
 try:
     greetings_list = configly.get('greetings')
     if greetings_list is None:
-        print('Can't find key')
+        print('Can\'t find key')
     else:
         print('Greetings!\n')
         for saying in greetings_list:
